@@ -1,10 +1,10 @@
 spring.datasource.url=jdbc:postgresql://localhost:5432/db_springboot
 spring.datasource.username=postgres
 spring.datasource.password=damian
-spring.datasource.driver-class-name=oer.postgresql.Driver
+spring.datasource.driver-class-name=org.postgresql.Driver
 spring.jpa.database-platform=org.hibernate.dialect.PostgreSQL95Dialect
 spring.jpa.hibernate.ddl-auto=create
 
 logging.level.org.hibernate.SQL=debug
 
-spring.jpá.properties.hibernate.jdbc.lob.non_contextual_creation=true
+spring.jpa.properties.hibernate.jdbc.lob.non_contextual_creation=true
